@@ -10,8 +10,12 @@
 int (*pr_func(const char *s, int ps))(va_list, char *, unsigned int)
 {
 	pr_t prt[] = {
-		{"c", print_char}, {"s", print_str},
-		{"i", print_int}, {"d", print_int}, {NULL, NULL},
+		{"c", print_char}, {"s", print_str}, {"i", print_int},
+		{"d", print_int}, {"b", print_bnr}, {"u", print_unt},
+		{"o", print_oct}, {"x", print_hex}, {"X", print_upx},
+		{"S", print_usr}, {"p", print_add}, {"li", prinlint},
+		{"ld", prinlint}, {"lu", prinlunt}, {"lo", prinloct},
+		{NULL, NULL},
 	};
 	int i = 0, j = 0, pos;
 

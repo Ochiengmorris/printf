@@ -27,6 +27,8 @@ int pr_buff(char *bf, unsigned int nbuf);
 int print_int(va_list args, char *bf, unsigned int buff);
 int print_str(va_list args, char *bf, unsigned int buff);
 int print_char(va_list args, char *bf, unsigned int buff);
+int print_revers(va_list args, char *bf, unsigned int buff);
+int print_octa(va_list args, char *bf, unsigned int buff);
 
 
 #endif
