@@ -17,7 +17,7 @@ int print_revers(va_list args, char *bf, unsigned int buff)
 	string = va_arg(args, char *);
 	if (string == NULL)
 	{
-		for (i = 0; reverse[j]; j++)
+		for (j = 0; reverse[j]; j++)
 			buff = make_buff(bf, reverse[j], buff);
 		return (6);
 	}

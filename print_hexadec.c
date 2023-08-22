@@ -1,7 +1,8 @@
 #include "main.h"
+
 /**
  * print_hexadec - prints a decimal in hexadecimal
- * @ars: input string
+ * @args: input string
  * @bf: buffer pointer
  * @buff: index for buffer pointer
  * Return: number of chars printed

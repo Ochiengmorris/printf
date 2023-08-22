@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * prinhhex - prints a short decimal in hexadecimal
+ * prinhh_x - prints a short decimal in hexadecimal
  * @args: input string
  * @bf: buffer pointer
  * @buff: index for buffer pointer

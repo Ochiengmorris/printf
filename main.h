@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <stdarg.h>
+#include <limits.h>
 
 /**
  * struct print - struct for print func.
@@ -44,6 +45,20 @@ int printlongunsignedint(va_list args, char *bf, unsigned int buff);
 int printlongint(va_list args, char *bf, unsigned int buff);
 int print_add(va_list args, char *bf, unsigned int buff);
 int pr_sr(va_list args, char *bf, unsigned int buff);
+int printlongdehex(va_list args, char *bf, unsigned int buff);
+int prinhh_x(va_list args, char *bf, unsigned int buff);
+int printsdecx(va_list args, char *bf, unsigned int ibuff);
+int print_hexadec(va_list args, char *bf, unsigned int buff);
+int printnumhex(va_list args, char *bf, unsigned int buff);
+int printnumoct(va_list args, char *bf, unsigned int buff);
+int print_rt(va_list args, char *bf, unsigned int buff);
+int printshtint(va_list args, char *bf, unsigned int buff);
+int printshrtint(va_list args, char *bf, unsigned int buff);
+int print_unsigned(va_list args, char *bf, unsigned int buff);
+int printuphex(va_list args, char *bf, unsigned int buff);
+int prinh_x(va_list args, char *bf, unsigned int buff);
+int print_dechex(va_list args, char *bf, unsigned int buff);
+int printldnum(va_list args, char *bf, unsigned int buff);
 
 
 #endif

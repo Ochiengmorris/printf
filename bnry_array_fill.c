@@ -19,7 +19,7 @@ char *bnry_array_fill(char *bnr, long int in, int neg, int limits)
 		bnr[j] = '0';
 	bnr[limits] = '\0';
 
-	for (i = limits - 1; in > 1; j--)
+	for (j = limits - 1; in > 1; j--)
 	{
 		if (in == 2)
 			bnr[j] = '0';

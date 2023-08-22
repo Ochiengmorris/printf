@@ -28,7 +28,7 @@ _printf("%d", 20);
 
 To use tags just like the one used above, use the following prototype :
 ```c
-%[flag][length,if any]specifier
+%[flag][length, /*if any*/]specifier
 ```
 
 
