@@ -42,17 +42,24 @@ To use tags just like the one used above, use the following prototype :
  | x                | unsigned hexadecimal|
  | X                | unsigned hexadecimal uppercase|
  | r                | Reversed string|
- | u                | signed octal   |
+ | u                | unsigned integer|
  | R                | ROT13 string   |
  | S                | characters with their ASCII values|
+ | o                | signed octal   |
 
-## Contributing
+## File functions used include :
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
+### _printf.c
+### print_char.c
+### print_int.c
+### pr_func.c
+ contains functions.
+### pr_funcev.c
+### print_add.c
+ print address.
+### print_long_unt.c
+### oct_array_fill.c
+ and many more as you will see in the folders.
 ## AUTHORED BY :
 JohnMorris (Ochiengmorris)
 
