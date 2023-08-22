@@ -43,6 +43,7 @@ int print_brr(va_list args, char *bf, unsigned int buff);
 int printlongunsignedint(va_list args, char *bf, unsigned int buff);
 int printlongint(va_list args, char *bf, unsigned int buff);
 int print_add(va_list args, char *bf, unsigned int buff);
+int pr_sr(va_list args, char *bf, unsigned int buff);
 
 
 #endif
