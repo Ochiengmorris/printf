@@ -16,13 +16,13 @@ Format has the string the string that is to be printed.
 ```c
 #include "main.h"
 
-# returns 'H'
+/* returns 'H' */
 _printf("H");
 
-# returns 'Hello'
+/* returns 'Hello' */
 _printf("Hello");
 
-# returns '20'
+/* returns '20' */
 _printf("%d", 20);
 ```
 
@@ -60,6 +60,10 @@ To use tags just like the one used above, use the following prototype :
 ### print_long_unt.c
 ### oct_array_fill.c
  and many more as you will see in the folders.
+
+## THE END
+
+
 ## AUTHORED BY :
 JohnMorris (Ochiengmorris)
 
