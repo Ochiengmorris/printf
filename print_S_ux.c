@@ -1,12 +1,13 @@
 #include "main.h"
+
 /**
- * printsdecX - prints a short decimal in hexadecimal
+ * printsdecx - prints a short decimal in hexadecimal
  * @args: The character to print
  * @bf: buffer pointer
  * @buff: index for buffer pointer
  * Return: number of chars printed
  */
-int printsdecX(va_list args, char *bf, unsigned int buff)
+int printsdecx(va_list args, char *bf, unsigned int buff)
 {
 	short int input, i, neg, count, digitone;
 	char *hexadecimal, *binary;
